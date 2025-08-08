@@ -74,6 +74,6 @@ index.js
 **Mohammad Yasin Hossain**
 
 GitHub: (https://github.com/Itachi-Uchiha-32/)
-Email: your.email@example.com
+Email: abid3082002@gmail.com
 
 ---

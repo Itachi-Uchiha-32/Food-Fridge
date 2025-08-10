@@ -8,7 +8,7 @@ const NearlyExpired = () => {
     const [loading, setLoading] = useState(true)
     useEffect(() =>{
         setLoading(true)
-        fetch('http://localhost:3000/foods/nearly-expired')
+        fetch('https://b11a11-server-side-itachi-uchiha-32.vercel.app/foods/nearly-expired')
         .then(res => res.json())
         .then(data => {
             setFood(data)

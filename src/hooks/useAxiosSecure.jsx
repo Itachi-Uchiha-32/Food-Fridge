@@ -3,7 +3,7 @@ import { use } from 'react';
 import { AuthContext } from '../context/AuthContext/AuthContext';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'https://b11a11-server-side-itachi-uchiha-32.vercel.app/',
     withCredentials: true,
 })
 const useAxiosSecure = () => {

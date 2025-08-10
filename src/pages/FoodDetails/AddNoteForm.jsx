@@ -28,7 +28,7 @@ const AddNoteForm = ({ foodId, onNoteAdded }) => {
     };
 
     try {
-      const res = await axios.post('http://localhost:3000/notes', noteData);
+      const res = await axios.post('https://b11a11-server-side-itachi-uchiha-32.vercel.app/notes', noteData);
       onNoteAdded(res.data);
       setText('');
     } catch (err) {

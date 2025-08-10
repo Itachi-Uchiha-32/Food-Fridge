@@ -8,7 +8,7 @@ const ExpiredFood = () => {
      const [loading, setLoading] = useState(true)
     useEffect(() => {
         setLoading(true);
-        axios.get('http://localhost:3000/foods/expired')
+        axios.get('https://b11a11-server-side-itachi-uchiha-32.vercel.app/foods/expired')
         .then(res =>{
              setExpiredFoods(res.data)
              setLoading(false)

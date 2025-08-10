@@ -23,8 +23,8 @@ const FoodDetails = () => {
     const fetchFoodAndNotes = async () => {
       try {
         const [foodRes, notesRes] = await Promise.all([
-          axios.get(`http://localhost:3000/foods/${id}`),
-          axios.get(`http://localhost:3000/notes/${id}`)
+          axios.get(`https://b11a11-server-side-itachi-uchiha-32.vercel.app/foods/${id}`),
+          axios.get(`https://b11a11-server-side-itachi-uchiha-32.vercel.app/notes/${id}`)
         ]);
         setFood(foodRes.data);
         setNotes(notesRes.data);

@@ -10,7 +10,7 @@ const FoodStorageTips = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/tips')
+      .get('https://b11a11-server-side-itachi-uchiha-32.vercel.app/tips')
       .then(res => {
         setTips(res.data);
         setLoading(false);

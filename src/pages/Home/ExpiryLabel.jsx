@@ -9,7 +9,7 @@ const ExpiryLabel = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get('http://localhost:3000/expiryLabel')
+    axios.get('https://b11a11-server-side-itachi-uchiha-32.vercel.app/expiryLabel')
       .then(res => {
         setLabels(res.data)
         setLoading(false)
